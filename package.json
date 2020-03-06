@@ -10,11 +10,10 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+        "snippets": [{
+            "language": "javascript",
+            "path": "./snippets/snippets.json"
+        }]
+    },
+    "publisher": "mabiri"
 }

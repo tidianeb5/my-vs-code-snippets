@@ -1,18 +1,12 @@
 {
-    "require with {} ": {
-        "prefix": "m-reqd",
-        "body": [
-            "const { '$2' } = require('${1:module')",
-            "$3"
-        ],
-        "description": ""
-    },
-    "simple require": {
-        "prefix": "m-req",
-        "body": [
-            "const ${1:moduleName} = require('${1:module}')",
-            "$2"
-        ],
-        "description": ""
-    }
+	"require with {} ": {
+		"prefix": "m-reqd",
+		"body": [ "const { $2 } = require('${1:module}')", "$3" ],
+		"description": ""
+	},
+	"simple require": {
+		"prefix": "m-req",
+		"body": [ "const ${2:moduleName} = require('${1:module}')", "$3" ],
+		"description": ""
+	}
 }
